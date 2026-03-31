@@ -36,7 +36,7 @@ Edit the script or set environment variables:
 | `MEMORY_LIMIT_MB` | 8192 | RSS memory threshold (MB) |
 | `COOLDOWN_MINUTES` | 10 | Minimum time between restarts |
 | `TELEGRAM_BOT_TOKEN` | auto | From systemd env or service file |
-| `TELEGRAM_CHAT_ID` | required | Your Telegram chat ID |
+| `TELEGRAM_CHAT_ID` | (none) | Your Telegram chat ID (required for notifications) |
 
 ## Health Checks
 

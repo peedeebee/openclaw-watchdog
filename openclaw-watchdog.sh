@@ -62,8 +62,8 @@ notify_telegram() {
         bot_token=$(grep -oP 'TELEGRAM_BOT_TOKEN=\K[^[:space:]]+' "$HOME/.config/systemd/user/openclaw-gateway.service" 2>/dev/null || echo "")
     fi
     
-    # Default chat ID (Philip's Telegram)
-    local chat_id="8379832070"
+    # Get chat ID from environment or use empty (must be set by user)
+    local chat_id="${TELEGRAM_CHAT_ID:-}"
     
     if [[ -n "$bot_token" && -n "$chat_id" ]]; then
         # Send via Telegram Bot API
