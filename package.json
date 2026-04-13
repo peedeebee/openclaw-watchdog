@@ -1,12 +1,12 @@
 {
   "name": "openclaw-watchdog",
-  "version": "1.0.0",
-  "description": "Automatic health monitoring and self-healing for OpenClaw Gateway",
+  "version": "2.0.0",
+  "description": "Smart health monitoring for OpenClaw Gateway with API rate limit awareness",
   "author": "Philip Baron",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/philip-baron/openclaw-watchdog.git"
+    "url": "https://github.com/peedeebee/openclaw-watchdog.git"
   },
-  "keywords": ["openclaw", "gateway", "monitoring", "systemd", "health-check"]
+  "keywords": ["openclaw", "gateway", "monitoring", "systemd", "health-check", "rate-limit", "exponential-backoff"]
 }
