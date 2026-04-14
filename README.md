@@ -45,7 +45,7 @@ Edit the script or set environment variables:
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `MEMORY_LIMIT_MB` | 8192 | RSS memory threshold in MB |
-| `TELEGRAM_CHAT_ID` | 8379832070 | Telegram chat ID for notifications |
+| `TELEGRAM_CHAT_ID` | (none) | Telegram chat ID for notifications (required) |
 | `BACKOFF_INTERVALS` | 10,30,60,120,240 | Cooldown minutes per backoff level |
 
 ## How It Works
